@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>はじめてのスライダー</title>
+  <link rel="stylesheet" href="bxslider/css/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src= "bxslider/js/jquery.bxslider.min.js"></script>
+
+</head>
+
+<body>
+  <h1>はじめてのHTML</h1>
+  // Slider HTML (change this to your own!)
+  <ul class="slider">
+    <li><img src="img/pic1.img"></li>
+    <li><img src="img/pic2.img"></li>
+    <li><img src="img/pic3.img"></li>
+  </ul>
+  // Initialize the slider
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
+
+</body>
+</html>
